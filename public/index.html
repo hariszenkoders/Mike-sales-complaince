@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>FSVP Vault · FSVP records for food importers</title>
+<meta name="description" content="FSVP Vault keeps a food importer's Foreign Supplier Verification Program in one place: supplier documents, expiry tracking, FDA record checks, approvals and the written plan.">
+<link rel="icon" href="/assets/favicon.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#F4F5F2; --surface:#FFFFFF; --ink:#14202B; --muted:#4A5560; --line:#DCDFD8;
+  --accent:#0F5E4F; --accent-soft:#E3F2EC; --bar:#14202B; --mint:#7FD1B9;
+  --sans:'IBM Plex Sans',-apple-system,'Helvetica Neue',Arial,sans-serif; --mono:'IBM Plex Mono',Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55}
+a{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.top{background:var(--bar);color:#fff}
+header.top .wrap{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;min-height:60px}
+.brand{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;color:#fff;text-decoration:none;font-weight:700;font-size:18px}
+.brand svg{margin-right:10px}
+.signin{color:#fff;text-decoration:none;font-weight:600;font-size:15px;border:1px solid #3A4A58;border-radius:8px;padding:8px 14px}
+.hero{background:var(--bar);color:#fff;padding:48px 0 64px}
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--mint);margin:0 0 12px}
+h1{font-size:34px;line-height:1.15;margin:0 0 16px;max-width:760px;letter-spacing:-.01em}
+.hero p{color:#C9D3DB;font-size:18px;max-width:640px;margin:0 0 28px}
+.btn{display:inline-block;background:var(--mint);color:var(--bar);font-weight:700;text-decoration:none;border-radius:8px;padding:13px 20px;min-height:44px;margin:0 10px 10px 0}
+.btn.ghost{background:transparent;color:#fff;border:1px solid #3A4A58}
+section{padding:56px 0}
+h2{font-size:26px;line-height:1.2;margin:0 0 12px}
+.lead{color:var(--muted);max-width:680px;margin:0 0 28px}
+.grid{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;margin:0 -8px}
+.cell{width:100%;padding:8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;height:100%}
+.card h3{font-size:17px;margin:0 0 6px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.cite{font-family:var(--mono);font-size:12px;color:var(--accent);display:block;margin-bottom:8px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{position:relative;padding:0 0 22px 48px}
+.steps li:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-weight:700;text-align:center;line-height:32px}
+.steps b{display:block}
+.steps span{color:var(--muted);font-size:15px}
+.price{font-size:30px;font-weight:700;margin:6px 0 2px}
+.price small{font-size:15px;font-weight:500;color:var(--muted)}
+.note{background:var(--surface);border-left:4px solid var(--accent);padding:16px 18px;border-radius:0 8px 8px 0;color:var(--muted);font-size:15px;max-width:760px}
+.alt{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px}
+@media (min-width:640px){ .cell.h{width:50%} h1{font-size:42px} }
+@media (min-width:900px){ .cell.t{width:33.333%} .cell.q{width:25%} .hero{padding:72px 0 88px} }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 30 30" fill="none" aria-hidden="true"><rect x="2.5" y="2.5" width="25" height="25" rx="5" stroke="#7FD1B9" stroke-width="2"/><circle cx="15" cy="15" r="5.5" stroke="#7FD1B9" stroke-width="2"/><path d="M15 9.5V7M15 23v-2.5M20.5 15H23M7 15h2.5" stroke="#7FD1B9" stroke-width="2" stroke-linecap="round"/></svg>FSVP Vault</a>
+  <a class="signin" href="/login">Sign in</a>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <p class="eyebrow">Foreign Supplier Verification Program · 21 CFR Part 1, Subpart L</p>
+  <h1>Your FSVP records, ready before FDA asks for them</h1>
+  <p>FSVP Vault keeps every foreign supplier’s certificates, audits, process filings and approvals in one place, tracks what’s expiring, checks FDA’s public records for each supplier, and builds the written plan your qualified individual signs.</p>
+  <a class="btn" href="mailto:hello@fsvpvault.com?subject=FSVP%20Vault%20demo">Request a demo</a><a class="btn ghost" href="/login">Sign in</a>
+</div></div>
+
+<section><div class="wrap">
+  <h2>Built for food and beverage importers</h2>
+  <p class="lead">If you are the U.S. owner or consignee of imported food, FDA expects you to evaluate each foreign supplier, approve it, verify it and keep the records for two years. Most small importers do this in shared folders and spreadsheets. FSVP Vault turns that into a checklist you can finish.</p>
+  <div class="grid">
+    <div class="cell h t"><div class="card"><span class="cite">1.504 · 1.505</span><h3>Supplier file and approval</h3><p>One page per supplier with the required documents for its foods, a hazard summary, and a dated approval record you can sign.</p></div></div>
+    <div class="cell h t"><div class="card"><span class="cite">1.506</span><h3>Document requests and expiry</h3><p>See what’s on file, missing or expired. Request renewals from suppliers and get reminded before certificates lapse.</p></div></div>
+    <div class="cell h t"><div class="card"><span class="cite">1.505(c)</span><h3>FDA record checks</h3><p>Import alerts, refusals, warning letters, recalls and inspections for each supplier, with a link to every source.</p></div></div>
+    <div class="cell h t"><div class="card"><span class="cite">1.502(b) · Part 113</span><h3>Low-acid and juice rules</h3><p>Foods are scoped up front, so canned low-acid foods, acidified foods and juice follow the right path.</p></div></div>
+    <div class="cell h t"><div class="card"><span class="cite">1.506(e) · 1.508</span><h3>Verification and corrective actions</h3><p>Audit, testing and records-review records with the fields FDA lists, plus a log for complaints and corrective actions.</p></div></div>
+    <div class="cell h t"><div class="card"><span class="cite">1.510</span><h3>Written plan and records package</h3><p>A complete written FSVP per supplier, and a records package you can hand over within 24 hours of an FDA request.</p></div></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>How it works</h2>
+  <p class="lead">Set up takes an afternoon for a typical importer with a handful of suppliers.</p>
+  <ol class="steps">
+    <li><b>Add your suppliers and foods</b><span>Answer five scoping questions per food. The required documents are set from the food type and its hazards.</span></li>
+    <li><b>Upload what you have, request the rest</b><span>Each supplier gets an upload code. Expiry dates are tracked from the day a file is added.</span></li>
+    <li><b>Review, approve and sign</b><span>Your qualified individual reviews each supplier, records the decision and signs the plan.</span></li>
+    <li><b>Stay current</b><span>Renewal requests, FDA record checks and reevaluation dates keep the program up to date.</span></li>
+  </ol>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Pricing</h2>
+  <p class="lead">Monthly plans, billed by number of active foreign suppliers. Annual billing includes two months free.</p>
+  <div class="grid">
+    <div class="cell h q"><div class="card"><h3>Solo</h3><p>1–2 suppliers</p><div class="price">$149<small> /month</small></div></div></div>
+    <div class="cell h q"><div class="card"><h3>Starter</h3><p>Up to 5 suppliers</p><div class="price">$299<small> /month</small></div></div></div>
+    <div class="cell h q"><div class="card"><h3>Growth</h3><p>Up to 15 suppliers</p><div class="price">$699<small> /month</small></div></div></div>
+    <div class="cell h q"><div class="card"><h3>Pro</h3><p>Up to 40 suppliers, multiple users</p><div class="price">$1,199<small> /month</small></div></div></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>About FSVP Vault</h2>
+  <p class="lead">FSVP Vault was started by a beverage importer who built an FSVP program from scratch and wanted the tool he couldn’t find: one that knows the rule, reads like a checklist, and fits a small team.</p>
+  <p class="note">FSVP Vault is software. It organizes your records and drafts documents; it does not act as your qualified individual or as your FSVP agent, and it is not affiliated with FDA. Your qualified individual reviews and signs every decision.</p>
+</div></section>
+
+<footer><div class="wrap">
+  <div>© <span id="yr">2026</span> FSVP Vault · <a href="mailto:hello@fsvpvault.com">hello@fsvpvault.com</a> · <a href="/login">Sign in</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></div>
+</div></footer>
+<script>try{document.getElementById('yr').textContent=new Date().getFullYear();}catch(e){}</script>
+</body>
+</html>
