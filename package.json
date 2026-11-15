@@ -1,0 +1,12 @@
+{
+  "name": "fsvpvault",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FSVP Vault working demo: landing page, single-user login and the FSVP portal.",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "seed:demo": "node seed/make-demo.js"
+  }
+}
